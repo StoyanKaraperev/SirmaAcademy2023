@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/P01BasicSyntax/P01BasicSyntax.iml" filepath="$PROJECT_DIR$/P01BasicSyntax/P01BasicSyntax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P02ConditionalStatements/P02ConditionalStatements.iml" filepath="$PROJECT_DIR$/P02ConditionalStatements/P02ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SirmaAcademy2023.iml" filepath="$PROJECT_DIR$/SirmaAcademy2023.iml" />
+    </modules>
+  </component>
+</project>
