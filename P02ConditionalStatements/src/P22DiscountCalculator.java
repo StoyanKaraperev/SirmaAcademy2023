@@ -5,19 +5,25 @@ public class P22DiscountCalculator {
         Scanner scanner = new Scanner(System.in);
         int age = Integer.parseInt(scanner.nextLine());
         String haveAMembershipCard = scanner.nextLine();
-        String discout = "";
-        if (age < 18){
-            discout = "10% discount";
+        String output = "";
+        String errorMessageAge = "Invalid age!";
+        String errorMessageCard = "Value must be Yes or No!";
+        if (age < 0){
+            output = errorMessageAge;
+        } else if (age < 18){
+            output = "10% discount";
         } else if (age <= 64){
             if (haveAMembershipCard.equals("Yes")){
-                discout = "20% discount";
+                output = "20% discount";
+            } else if (haveAMembershipCard.equals("No")){
+                output = "10% discount";
             } else {
-                discout = "10% discount";
+                output = errorMessageCard;
             }
         } else {
-            discout = "30% discount";
+            output = "30% discount";
         }
 
-        System.out.printf("%s", discout);
+        System.out.printf("%s", output);
     }
 }
