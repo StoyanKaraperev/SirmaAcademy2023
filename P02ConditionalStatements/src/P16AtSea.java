@@ -49,6 +49,6 @@ public class P16AtSea {
             return;
         }
 
-        System.out.printf("%.2f", totalPrice);
+        System.out.printf("The price for the stay at the hotel is: %.2f", totalPrice);
     }
 }
