@@ -5,6 +5,7 @@ public class ReverseAnArrayOfStrings {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String [] words = scanner.nextLine()
+                .trim()
                 .split(",");
         for (int i = 0; i < words.length / 2; i++){
             String reversElement = words[i];

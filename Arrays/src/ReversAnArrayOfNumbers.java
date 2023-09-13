@@ -7,6 +7,7 @@ public class ReversAnArrayOfNumbers {
         int numberOfElement = Integer.parseInt(scanner.nextLine());
         int [] numbers = Arrays
                 .stream(scanner.nextLine()
+                        .trim()
                         .split(","))
                 .mapToInt(e -> Integer.parseInt(e))
                 .toArray();

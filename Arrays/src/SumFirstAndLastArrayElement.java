@@ -6,6 +6,7 @@ public class SumFirstAndLastArrayElement {
         Scanner scanner = new Scanner(System.in);
         int [] arrNumbers = Arrays
                 .stream(scanner.nextLine()
+                        .trim()
                         .split(","))
                 .mapToInt((e -> Integer.parseInt(e)))
                 .toArray();

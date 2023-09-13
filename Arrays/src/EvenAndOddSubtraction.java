@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SumEvenNumbers {
+public class EvenAndOddSubtraction {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int [] numbers = Arrays
@@ -10,13 +10,17 @@ public class SumEvenNumbers {
                         .split(","))
                 .mapToInt(e -> Integer.parseInt(e))
                 .toArray();
-        int totalSum = 0;
+        int sumEvenNumbers = 0;
+        int sumOddNumbers = 0;
+        int difference = 0;
         for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] % 2 == 0) {
-                totalSum += numbers[i];
+            if (numbers[i] % 2 == 0){
+                sumEvenNumbers += numbers[i];
+            } else {
+                sumOddNumbers += numbers[i];
             }
         }
-
-        System.out.printf("%d", totalSum);
+        difference = sumEvenNumbers - sumOddNumbers;
+        System.out.printf("%d", difference);
     }
 }
