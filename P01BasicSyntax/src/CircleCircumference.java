@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P20CircleCircumference {
+public class CircleCircumference {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double radius = Double.parseDouble(scanner.nextLine());

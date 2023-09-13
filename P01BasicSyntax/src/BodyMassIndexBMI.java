@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P15BodyMassIndexBMI {
+public class BodyMassIndexBMI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double weight = Double.parseDouble(scanner.nextLine());

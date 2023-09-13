@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P10Time {
+public class Time {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputMinutes = Integer.parseInt(scanner.nextLine());

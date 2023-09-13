@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P11Speed {
+public class Speed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int distanceInMeters = Integer.parseInt(scanner.nextLine());

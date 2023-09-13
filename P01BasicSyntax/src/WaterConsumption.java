@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P16WaterConsumption {
+public class WaterConsumption {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double totalWaterConsumption = Double.parseDouble(scanner.nextLine());

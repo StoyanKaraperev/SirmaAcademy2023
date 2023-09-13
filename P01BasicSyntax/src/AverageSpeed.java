@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P18AverageSpeed {
+public class AverageSpeed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double distance = Double.parseDouble(scanner.nextLine());

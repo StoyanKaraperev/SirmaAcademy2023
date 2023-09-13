@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P14Journey {
+public class Journey {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstCarSpeed = Integer.parseInt(scanner.nextLine());

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P13Office {
+public class Office {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double firstCabinet = Double.parseDouble(scanner.nextLine());

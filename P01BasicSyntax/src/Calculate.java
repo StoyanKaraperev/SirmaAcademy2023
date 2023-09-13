@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P09Calculate {
+public class Calculate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstNumber = Integer.parseInt(scanner.nextLine());
