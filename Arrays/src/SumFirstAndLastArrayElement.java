@@ -5,7 +5,8 @@ public class SumFirstAndLastArrayElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int [] arrNumbers = Arrays
-                .stream(scanner.nextLine().split(","))
+                .stream(scanner.nextLine()
+                        .split(","))
                 .mapToInt((e -> Integer.parseInt(e)))
                 .toArray();
         int totalSum = 0;
