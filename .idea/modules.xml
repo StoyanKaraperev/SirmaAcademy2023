@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/P01BasicSyntax/P01BasicSyntax.iml" filepath="$PROJECT_DIR$/P01BasicSyntax/P01BasicSyntax.iml" />
       <module fileurl="file://$PROJECT_DIR$/P02ConditionalStatements/P02ConditionalStatements.iml" filepath="$PROJECT_DIR$/P02ConditionalStatements/P02ConditionalStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/P03Loops/P03Loops.iml" filepath="$PROJECT_DIR$/P03Loops/P03Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P04Arrays/P04Arrays.iml" filepath="$PROJECT_DIR$/P04Arrays/P04Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/SirmaAcademy2023.iml" filepath="$PROJECT_DIR$/SirmaAcademy2023.iml" />
     </modules>
   </component>
