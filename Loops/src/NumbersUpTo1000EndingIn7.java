@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class P22NumbersUpTo1000EndingIn7 {
+public class NumbersUpTo1000EndingIn7 {
     public static void main(String[] args) {
         int remainder = 0;
         for (int i = 1; i <= 1000; i++){

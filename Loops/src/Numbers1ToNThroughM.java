@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P04Numbers1ToNThroughM {
+public class Numbers1ToNThroughM {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int loops = Integer.parseInt(scanner.nextLine());

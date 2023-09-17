@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P19PadawanEquipment {
+public class PadawanEquipment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double budget = Double.parseDouble(scanner.nextLine());

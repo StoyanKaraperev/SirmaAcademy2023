@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P07Clock {
+public class Clock {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         for (int hours = 0; hours < 24; hours++){

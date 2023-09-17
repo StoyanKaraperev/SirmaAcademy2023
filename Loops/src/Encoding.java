@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P24Encoding {
+public class Encoding {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         final int AddNumber = 33;

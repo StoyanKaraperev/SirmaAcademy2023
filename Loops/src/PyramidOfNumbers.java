@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P28PyramidOfNumbers {
+public class PyramidOfNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumbers = Integer.parseInt(scanner.nextLine());

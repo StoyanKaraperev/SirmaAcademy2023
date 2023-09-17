@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P25CoinsAndNotes {
+public class CoinsAndNotes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int oneLv = Integer.parseInt(scanner.nextLine());

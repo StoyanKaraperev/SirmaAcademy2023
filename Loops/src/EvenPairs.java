@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P26EvenPairs {
+public class EvenPairs {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int firstRow = Integer.parseInt(scanner.nextLine());

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P16HollowRectanglePattern {
+public class HollowRectanglePattern {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputRow = Integer.parseInt(scanner.nextLine());

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P23NumbersUpTo1000EndingInN {
+public class NumbersUpTo1000EndingInN {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int endNumber = Integer.parseInt(scanner.nextLine());

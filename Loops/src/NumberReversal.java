@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P11NumberReversal {
+public class NumberReversal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = Integer.parseInt(scanner.nextLine());

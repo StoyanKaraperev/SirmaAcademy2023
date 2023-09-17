@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P02NumbersNTo0InReverseOrder {
+public class NumbersNTo0InReverseOrder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputLoops = Integer.parseInt(scanner.nextLine());

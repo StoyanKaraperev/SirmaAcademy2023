@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P20RageExpenses {
+public class RageExpenses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int countLostGames = Integer.parseInt(scanner.nextLine());

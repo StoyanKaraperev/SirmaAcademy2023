@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P05LettersInAWord {
+public class LettersInAWord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String inputText = scanner.nextLine();

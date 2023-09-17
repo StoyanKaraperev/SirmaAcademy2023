@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P30SquareOfAsterisks {
+public class SquareOfAsterisks {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = Integer.parseInt(scanner.nextLine());

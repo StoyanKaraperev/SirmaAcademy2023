@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P17NewBuilding {
+public class NewBuilding {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int floors = Integer.parseInt(scanner.nextLine());

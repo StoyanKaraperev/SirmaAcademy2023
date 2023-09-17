@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P14ArmstrongNumberCheck {
+public class ArmstrongNumberCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String inputNumber = scanner.nextLine();
