@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayManipulations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] inputArray = Arrays
+        int [] inputArray = Arrays
                 .stream(scanner.nextLine()
                         .trim()
                         .split(" "))
