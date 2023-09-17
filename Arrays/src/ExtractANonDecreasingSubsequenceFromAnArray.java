@@ -21,7 +21,7 @@ public class ExtractANonDecreasingSubsequenceFromAnArray {
             } else {
                 count = 0;
             }
-            for (int j = i + 1; j < inputArray.length ; j++) {
+            for (int j = i + 1; j < inputArray.length; j++) {
                 if ( theLargestNumber < inputArray[j]){
                     theLargestNumber = inputArray[j];
                     break;
