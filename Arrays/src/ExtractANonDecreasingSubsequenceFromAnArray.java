@@ -31,7 +31,6 @@ public class ExtractANonDecreasingSubsequenceFromAnArray {
                 }
             }
 
-
         }
         for (int num : increasingSubsequence) {
             System.out.printf("%d ", num);
