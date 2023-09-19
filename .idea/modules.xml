@@ -3,12 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/Classes/BankAccount/BankAccount.iml" />
       <module fileurl="file://$PROJECT_DIR$/BasicSyntax/BasicSyntax.iml" filepath="$PROJECT_DIR$/BasicSyntax/BasicSyntax.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/CarInfo/CarInfo.iml" filepath="$PROJECT_DIR$/Classes/CarInfo/CarInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/ClassStorage/ClassStorage.iml" filepath="$PROJECT_DIR$/Classes/ClassStorage/ClassStorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/Classes.iml" filepath="$PROJECT_DIR$/Classes/Classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/P03Loops/P03Loops.iml" filepath="$PROJECT_DIR$/P03Loops/P03Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/SirmaAcademy2023.iml" filepath="$PROJECT_DIR$/SirmaAcademy2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Vehicle/Vehicle.iml" filepath="$PROJECT_DIR$/Classes/Vehicle/Vehicle.iml" />
     </modules>
   </component>
 </project>
