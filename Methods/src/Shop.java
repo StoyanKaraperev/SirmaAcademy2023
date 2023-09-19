@@ -5,10 +5,10 @@ public class Shop {
         Scanner scanner = new Scanner(System.in);
         String nameOfProduct = scanner.nextLine();
         int quantityOfProduct = Integer.parseInt(scanner.nextLine());
-        calculateThePriceOfAnyProductInShop(nameOfProduct, quantityOfProduct);
+        printingAndCalculateThePriceOfAnyProductInShop(nameOfProduct, quantityOfProduct);
     }
 
-    public static void calculateThePriceOfAnyProductInShop(String product, int quantity){
+    public static void printingAndCalculateThePriceOfAnyProductInShop(String product, int quantity){
         double coffeePrice = 1.50;
         double waterPrice = 1.00;
         double cokePrice = 1.40;

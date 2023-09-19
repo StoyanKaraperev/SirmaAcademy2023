@@ -5,10 +5,10 @@ public class RepeatString {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         int repeatNumber = Integer.parseInt(scanner.nextLine());
-        returnNewStringRepeatedNTimesInOneLine(inputString, repeatNumber);
+        printingAndReturnNewStringRepeatedNTimesInOneLine(inputString, repeatNumber);
     }
 
-    public static void returnNewStringRepeatedNTimesInOneLine(String stringToRepeat, int numberToRepeat){
+    public static void printingAndReturnNewStringRepeatedNTimesInOneLine(String stringToRepeat, int numberToRepeat){
         for (int i = 0; i < numberToRepeat; i++) {
             System.out.printf("%s", stringToRepeat);
         }
