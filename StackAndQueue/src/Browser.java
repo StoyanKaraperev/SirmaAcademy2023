@@ -3,9 +3,13 @@ import java.util.Scanner;
 
 public class Browser {
     public static void main(String[] args) {
+        ArrayDeque<String> history = new ArrayDeque<String>();
+        fillAndPrintedOperationInBrowser(history);
+    }
+
+    public static void fillAndPrintedOperationInBrowser(ArrayDeque<String> history){
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
-        ArrayDeque<String> history = new ArrayDeque<String>();
         String firstPage = "";
         int count = 0;
         String currentPage = "";
@@ -36,7 +40,6 @@ public class Browser {
             System.out.println(currentPage);
             inputString = scanner.nextLine();
         }
-
     }
 
 }
