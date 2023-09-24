@@ -7,10 +7,10 @@ public class DecimalToBinaryConverter {
         int input = Integer.parseInt(scanner.nextLine());
         ArrayDeque<Integer> stackNumbers = new ArrayDeque<Integer>();
 
-        fillBinariStack(stackNumbers, input);
+        fillBinaryStack(stackNumbers, input);
         printStack(stackNumbers);
     }
-    public static void fillBinariStack (ArrayDeque<Integer> stackNumbers, int input){
+    public static void fillBinaryStack (ArrayDeque<Integer> stackNumbers, int input){
         while (input != 0){
             int reminder = input % 2;
             stackNumbers.push(reminder);
