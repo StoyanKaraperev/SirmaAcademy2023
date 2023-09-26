@@ -14,7 +14,7 @@ public class PrintDiagonalsOfSquareMatrix {
         ArrayList<String> secondDiagonal = new ArrayList<>();
         int count = 0;
         for (int row = 0; row < matrix.length; row++) {
-            firstDiagonal.add(matrix[row + count][row + count]);
+            firstDiagonal.add(matrix[row][row]);
         }
 
         for (int row = matrix.length - 1; row >= 0; row--) {
