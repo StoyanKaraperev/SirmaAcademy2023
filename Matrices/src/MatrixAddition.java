@@ -44,7 +44,7 @@ public class MatrixAddition {
 
     private static void printingTheResult(int[][] resultMatrix) {
         for (int row = 0; row < resultMatrix.length; row++) {
-            for (int col = 0; col < resultMatrix.length; col++) {
+            for (int col = 0; col < resultMatrix[row].length; col++) {
                 System.out.printf("%d ", resultMatrix[row][col]);
             }
 
