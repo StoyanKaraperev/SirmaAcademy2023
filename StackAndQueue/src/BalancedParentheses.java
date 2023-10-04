@@ -25,9 +25,7 @@ public class BalancedParentheses {
                     || symbol == ']'
                     || symbol == ')'){
                 char element = brackets.pop();
-                if (element == '{' && symbol != '}'
-                        || element == '[' && symbol != ']'
-                        || element == '(' && symbol != ')'){
+                if (element == '{' && symbol != '}' || element == '[' && symbol != ']' || element == '(' && symbol != ')'){
                     System.out.println(resultMessage);
                     return;
                 }
