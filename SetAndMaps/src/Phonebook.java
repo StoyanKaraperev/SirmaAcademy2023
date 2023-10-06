@@ -12,7 +12,7 @@ public class Phonebook {
                 input = searchNameAndPrintResult(scanner, phonebook);
             }
 
-            if (input.equals("stop")){
+            if (input.equals("stop")) {
                 break;
             }
 

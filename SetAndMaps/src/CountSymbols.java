@@ -15,6 +15,10 @@ public class CountSymbols {
             }
         }
 
+        printingTheResult(result);
+    }
+
+    private static void printingTheResult(Map<String, Integer> result) {
         for (Map.Entry<String, Integer> print : result.entrySet()) {
             String symbol = print.getKey();
             int count = print.getValue();
