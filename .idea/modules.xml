@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/SirmaAcademy2023.iml" filepath="$PROJECT_DIR$/SirmaAcademy2023.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" filepath="$PROJECT_DIR$/StackAndQueue/StackAndQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/Storage/Storage.iml" filepath="$PROJECT_DIR$/Classes/Storage/Storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringProcessing/StringProcessing.iml" filepath="$PROJECT_DIR$/StringProcessing/StringProcessing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/Students/Students.iml" filepath="$PROJECT_DIR$/Classes/Students/Students.iml" />
       <module fileurl="file://$PROJECT_DIR$/Classes/Vehicle/Vehicle.iml" filepath="$PROJECT_DIR$/Classes/Vehicle/Vehicle.iml" />
     </modules>
