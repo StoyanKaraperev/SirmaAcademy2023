@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public class Shape implements Serializable {
+public class Shape  implements Serializable{
     private String name;
     private String color;
     private double width;
