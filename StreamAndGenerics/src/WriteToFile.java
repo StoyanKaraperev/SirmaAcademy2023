@@ -6,7 +6,7 @@ import java.util.List;
 public class WriteToFile {
     public static void main(String[] args) {
         String inputText = "E:\\SirmaAcademy\\inputGenerics.txt";
-        String outputText = "E:\\SirmaAcademy\\outputGenericsWriteFile.txt";
+        String outputText = "E:\\SirmaAcademy\\WriteFile.txt";
 
         List<Character> symbols = new ArrayList<>();
         Collections.addAll(symbols, ',','.','!','?');

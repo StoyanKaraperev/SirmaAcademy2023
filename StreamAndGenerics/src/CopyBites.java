@@ -5,7 +5,7 @@ import java.io.IOException;
 public class CopyBites {
     public static void main(String[] args) {
         String inputText = "E:\\SirmaAcademy\\inputGenerics.txt";
-        String outputText = "E:\\SirmaAcademy\\outputGenericsCopyBite.txt";
+        String outputText = "E:\\SirmaAcademy\\CopyBite.txt";
 
         try (FileInputStream inputStream = new FileInputStream(inputText);
              FileOutputStream outputStream = new FileOutputStream(outputText)) {
