@@ -1,6 +1,6 @@
 public class StartUp {
     public static void main(String[] args) {
-        Jar greenJar = new Jar();
+        Jar<String> greenJar = new Jar();
         String greenBall = "green";
         String yellowBall = "yellow";
         greenJar.add(greenBall);
@@ -9,5 +9,10 @@ public class StartUp {
         System.out.println("--------------------");
         greenJar.remove();
         greenJar.print();
+        System.out.println("--------------------");
+        int one = 1;
+        Jar<Integer> digits = new Jar<>();
+        digits.add(one);
+        digits.print();
     }
 }
